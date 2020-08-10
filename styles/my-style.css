@@ -135,6 +135,12 @@
                                     overflow: hidden;
                                 }
                                 
+                                @media (min-width: 768px) {
+                                    .about-md .content {
+                                        width: 25%;
+                                    }
+                                }
+                                
                                 .about-me .image {
                                     float: left;
                                     width: 40%;
